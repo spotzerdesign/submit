@@ -57,6 +57,12 @@ section {
     /* align-items: center; */
 }
 
+@media (max-width:640px) {
+    section {
+        padding: 0 10%;
+    }
+}
+
 /* Align list to title */
 ul {
     padding-left: 20px;
