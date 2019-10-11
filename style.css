@@ -1,0 +1,73 @@
+h1,
+h2,
+h3,
+p,
+li,
+a {
+    font-family: "Montserrat";
+    color: #222222;
+}
+
+h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #EB6909;
+}
+
+a {
+    text-decoration: underline;
+}
+
+p,
+a,
+li {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+body {
+    background-image: url("assets/background.jpg");
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section {
+    padding: 0 15%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100vh;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+/* Align list to title */
+ul {
+    padding-left: 20px;
+}
+
+.logo {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    height: 50px;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.25s ease-out;
+}
+
+.logo:hover {
+    -webkit-box-shadow: 0px 5px 25px -10px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 5px 25px -10px rgba(0, 0, 0, 0.6);
+    transform: scale(1.05);
+}
