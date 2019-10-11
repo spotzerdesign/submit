@@ -98,15 +98,16 @@ body.thanks {
     justify-content: center;
 }
 
-@media (min-width:640px){
-.thanks section {
-    height: 50vh !important;
-    width: 50%;
-}
-.thanks section p {
-    -webkit-column-count: 2;
-    column-count: 2;
-}
+@media (min-width:640px) {
+    .thanks section {
+        height: 50vh !important;
+        width: 50%;
+    }
+
+    .thanks section p {
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
 }
 
 .thanks section p {
@@ -114,6 +115,13 @@ body.thanks {
     font-size: 2rem;
     font-weight: bold;
     color: var(--main);
+}
+
+@media (max-650px) {
+    .thanks section p {
+        line-height: 3rem;
+        font-size: 1.5rem;
+    }
 }
 
 /* .thanks section p span:nth-child(odd) {
